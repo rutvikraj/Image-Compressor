@@ -1,6 +1,6 @@
-# EndPresso - An Intelligent Image Compressor
+# Compresso - An Intelligent Image Compressor
 
-EndPresso compresses an image by detecting the important and unimportant objects inside a frame and compressing them accordingly. In short, YOLO is used to detect and segment the objects and then the compression is done respectively. 
+Compresso compresses an image by detecting the important and unimportant objects inside a frame and compressing them accordingly. In short, YOLO is used to detect and segment the objects and then the compression is done respectively. 
 
 ## Installation
 
@@ -15,8 +15,8 @@ EndPresso compresses an image by detecting the important and unimportant objects
 
 1. Clone, and `cd` into the repo directory. 
    ```Shell
-   git clone https://github.com/zeeem/EndPresso.git
-   cd EndPresso
+   git clone https://github.com/Chailcy/compresso.git
+   cd Compresso
    ```
 2. Install the required dependencies if necessary:
    
@@ -28,7 +28,7 @@ EndPresso compresses an image by detecting the important and unimportant objects
 
 ## How to run the application
 
-### Running the EndPresso commandline app
+### Running the Compresso commandline app
 
 The app is still in alpha so there is no GUI developed yet.
 `cd` to the prject directory and run the app by the following command in the terminal.
@@ -46,24 +46,7 @@ Here,
 The output file will be saved in the `output` directory with the filename `res.jpg`.
 
 
-
-## Compression Results
-
-![Result Comparison](https://github.com/zeeem/EndPresso/blob/master/temp/res_comparison.png)
-
-![Compression Information](https://github.com/zeeem/EndPresso/blob/master/temp/res_compression_info.png)
-
-
-
-## Developers
-[Naimur Rahman Jeem](https://www.linkedin.com/in/zeeem/)
-
-[Hanming Li](https://www.linkedin.com/in/hanming-li-306b11199/)
-
 ## Acknowledgements
 The code is based on the official code of [YOLO v3](https://github.com/pjreddie/darknet), PyTorch part of the original code, by [marvis](https://github.com/marvis/pytorch-yolo2), as well as PyTorch implementation of the YOLO v3 by [ayooshkathuria](https://github.com/ayooshkathuria/pytorch-yolo-v3)
 
 The weights file "yolov3.weights" is downloaded from [here](https://pjreddie.com/media/files/yolov3.weights)
-
-
-If needed, please contact at rahmanje[at]ualberta[dot]ca, hanming[at]ualberta[dot]ca.
