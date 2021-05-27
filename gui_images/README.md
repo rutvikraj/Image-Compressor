@@ -29,8 +29,24 @@ Compresso compresses an image by detecting the important and unimportant objects
 
 ### Running the EndPresso commandline app
 
-The app is still in alpha so there is no GUI developed yet.
 `cd` to the prject directory and run the app by the following command in the terminal.
+
+```
+python detect.py --images images/test3.jpg --quality 10
+```
+
+Here,
+
+`--images` flag defines the directory to load images from, 
+`--quality` is an optional flag. Its the rate of the compression where 0 = highest compression (lowest quality) and 100 = lowest compression(highest quality). As default it's 10.
+`images/test3.jpg` is the source image. Change it accordingly. 
+
+The output file will be saved in the `output` directory with the filename `res.jpg`.
+
+### Running the EndPresso GUI app
+
+So the basic GUI home screen looks like this when you execute the "ep_gui.py" file as shown in below image.
+
 
 ```
 python detect.py --images images/test3.jpg --quality 10
