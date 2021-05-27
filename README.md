@@ -75,6 +75,3 @@ The output file will be saved in the `output` directory with the filename `res.j
 The code is based on the official code of [YOLO v3](https://github.com/pjreddie/darknet), PyTorch part of the original code, by [marvis](https://github.com/marvis/pytorch-yolo2), as well as PyTorch implementation of the YOLO v3 by [ayooshkathuria](https://github.com/ayooshkathuria/pytorch-yolo-v3)
 
 The weights file "yolov3.weights" is downloaded from [here](https://pjreddie.com/media/files/yolov3.weights)
-
-
-If needed, please contact at rahmanje[at]ualberta[dot]ca, hanming[at]ualberta[dot]ca.
