@@ -70,9 +70,8 @@ The output file will be saved in the `output` directory with the filename `res.j
 
 
 ## Developers
-[Naimur Rahman Jeem](https://www.linkedin.com/in/zeeem/)
+[Rutvikraj Vala](https://www.linkedin.com/in/rutvikraj-vala-797737173/)
 
-[Hanming Li](https://www.linkedin.com/in/hanming-li-306b11199/)
 
 ## Acknowledgements
 The code is based on the official code of [YOLO v3](https://github.com/pjreddie/darknet), PyTorch part of the original code, by [marvis](https://github.com/marvis/pytorch-yolo2), as well as PyTorch implementation of the YOLO v3 by [ayooshkathuria](https://github.com/ayooshkathuria/pytorch-yolo-v3)
