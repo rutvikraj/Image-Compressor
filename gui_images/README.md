@@ -63,9 +63,7 @@ The output file will be saved in the `output` directory with the filename `res.j
 
 ## Compression Results
 
-![Result Comparison](https://github.com/zeeem/EndPresso/blob/master/temp/res_comparison.png)
-
-![Compression Information](https://github.com/zeeem/EndPresso/blob/master/temp/res_compression_info.png)
+![Compression Information](https://github.com/rutvikraj/Image-Compressor/blob/main/gui_images/test9.png)
 
 
 
