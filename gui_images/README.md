@@ -1,8 +1,6 @@
-# EndPresso - An Intelligent Image Compressor
+# Compresso - An Intelligent Image Compressor
 
-EndPresso compresses an image by detecting the important and unimportant objects inside a frame and compressing them accordingly. In short, YOLO is used to detect and segment the objects and then the compression is done respectively. 
-
-## Installation
+Compresso compresses an image by detecting the important and unimportant objects inside a frame and compressing them accordingly. In short, YOLO is used to detect and segment the objects and then the compression is done respectively. 
 
 ### Requirements
 1. Python 3.6
