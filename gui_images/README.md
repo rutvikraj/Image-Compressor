@@ -60,18 +60,8 @@ The output file will be saved in the `output` directory with the filename `res.j
    -  ![Notification](https://github.com/rutvikraj/Image-Compressor/blob/main/gui_images/notifi.png) - ![Notification](https://github.com/rutvikraj/Image-Compressor/blob/main/gui_images/notify.png)
    - If your image is compressed succesfully the you will get the first notification from above as shown with Compression Ratio and also the output ditrctory where your compessed image is saved as shown below.
    - ![Notification](https://github.com/rutvikraj/Image-Compressor/blob/main/gui_images/uotput.png) 
-
-```
-python detect.py --images images/test3.jpg --quality 10
-```
-
-Here,
-
-`--images` flag defines the directory to load images from, 
-`--quality` is an optional flag. Its the rate of the compression where 0 = highest compression (lowest quality) and 100 = lowest compression(highest quality). As default it's 10.
-`images/test3.jpg` is the source image. Change it accordingly. 
-
-The output file will be saved in the `output` directory with the filename `res.jpg`.
+   - But if you get the other notification then you need to change the image because it cannot be compressed.
+   - The output file will be saved in the `output` directory with the filename `res.jpg`.
 
 
 
