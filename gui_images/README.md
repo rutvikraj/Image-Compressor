@@ -53,6 +53,13 @@ The output file will be saved in the `output` directory with the filename `res.j
 
 ![Buttons](https://github.com/rutvikraj/Image-Compressor/blob/main/gui_images/Buttons.png)
 
+- Here are some Screenshots of what will happen when you click on those buttons.
+   - Clicking on rleft button it will open explorer for you to select Image.
+   - ![Button !](https://github.com/rutvikraj/Image-Compressor/blob/main/gui_images/B1_pressed.png)
+   - On clicking to the right button after selecting an Image it in background start its process of compressing & after the process is completed you will get either of the one message box.
+   -  ![Notification](https://github.com/rutvikraj/Image-Compressor/blob/main/gui_images/notifi.png) - ![Notification](https://github.com/rutvikraj/Image-Compressor/blob/main/gui_images/notify.png)
+   - If your image is compressed succesfully the you will get the first notification from above as shown with Compression Ratio and also the output ditrctory where your compessed image is saved as shown below.
+   - ![Notification](https://github.com/rutvikraj/Image-Compressor/blob/main/gui_images/B2_pressed.png) 
 
 ```
 python detect.py --images images/test3.jpg --quality 10
