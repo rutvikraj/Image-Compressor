@@ -45,7 +45,13 @@ The output file will be saved in the `output` directory with the filename `res.j
 
 ### Running the EndPresso GUI app
 
-So the basic GUI home screen looks like this when you execute the "ep_gui.py" file as shown in below image.
+- So the basic GUI home screen looks like this when you execute the "ep_gui.py" file as shown in below image.
+
+![Homescreen](https://github.com/rutvikraj/Image-Compressor/blob/main/gui_images/main_screen.png)
+
+- As you can see on home sceen there are two Buttons one to Select the image and another to Compress the image. Also when you start the GUI no image is selected so it shows a message "No !mage Selected".
+
+![Buttons](https://github.com/rutvikraj/Image-Compressor/blob/main/gui_images/Buttons.png)
 
 
 ```
