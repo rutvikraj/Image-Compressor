@@ -9,7 +9,8 @@ Compresso compresses an image by detecting the important and unimportant objects
 4. Numpy
 
 *Using PyTorch 0.3 will break the detector.
-*Also in the project there is "req.txt" file which contains all the project requirnments 
+
+*Also in the project there is "requirements.txt" file which contains all the project requirements. Now to install at of these requirenments at once you can use `pip install -r requirements.txt`.
 
 
 1. Clone, and `cd` into the repo directory. 
