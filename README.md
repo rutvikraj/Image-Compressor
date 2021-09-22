@@ -13,7 +13,7 @@ Compresso compresses an image by detecting the important and unimportant objects
 
 1. Clone, and `cd` into the repo directory. 
    ```Shell
-   git clone https://github.com/zeeem/EndPresso.git
+   git clone https://github.com/rutvikraj/Image-Compressor
    cd EndPresso
    ```
 2. Install the required dependencies if necessary:
@@ -21,6 +21,7 @@ Compresso compresses an image by detecting the important and unimportant objects
    - Python 3
    - Install Pytorch following [THIS LINK](https://pytorch.org/get-started/locally/)
    - Other python dependencies: PIL (Pillow version), numpy, openCV
+   - The weights file "yolov3.weights" is downloaded from [here](https://pjreddie.com/media/files/yolov3.weights)
 
 *Also in the project there is "requirements.txt" file which contains all the project requirements. Now to install at of these requirenments at once you can use `pip install -r requirements.txt`.
 
@@ -69,9 +70,3 @@ The output file will be saved in the `output` directory with the filename `res.j
 
 ## Developers
 [Rutvikraj Vala](https://www.linkedin.com/in/rutvikraj-vala-797737173/)
-
-
-## Acknowledgements
-The code is based on the official code of [YOLO v3](https://github.com/pjreddie/darknet), PyTorch part of the original code, by [marvis](https://github.com/marvis/pytorch-yolo2), as well as PyTorch implementation of the YOLO v3 by [ayooshkathuria](https://github.com/ayooshkathuria/pytorch-yolo-v3)
-
-The weights file "yolov3.weights" is downloaded from [here](https://pjreddie.com/media/files/yolov3.weights)
