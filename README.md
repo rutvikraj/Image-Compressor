@@ -14,7 +14,7 @@ Compresso compresses an image by detecting the important and unimportant objects
 1. Clone, and `cd` into the repo directory. 
    ```Shell
    git clone https://github.com/rutvikraj/Image-Compressor
-   cd EndPresso
+   cd Compresso
    ```
 2. Install the required dependencies if necessary:
    
